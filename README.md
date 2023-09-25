@@ -54,7 +54,7 @@ npm install --save-dev jest
 
 # API Documentation
 
-This documentation outlines two APIs:
+This documentation outlines APIs:
 
 - **Users API**
     - **Fetch User Information:**
