@@ -50,18 +50,31 @@ npm test
 npm install --save-dev jest
 ```
 
+![TT](https://github.com/Mirza-Hassan/React_UserTable_Task/assets/17096257/81434332-12ee-49e0-bfa1-ddabe1002343)
+
 # API Documentation
 
 This documentation outlines two APIs:
 
-**OpenWeatherMap API**
-    - **Fetch Weather by City:**
-        - **URL**: `http://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}&units=metric`
+- **Users API**
+    - **Fetch User Information:**
+        - **URL**: `https://private-e7f67d-users324.apiary-mock.com/users`
         - **Method**: GET
         - **Parameters**: 
-            - `city` (string, required): The city name for weather data.
-            - `apiKey` (string, required): API key for OpenWeatherMap.
-        - **Response**: Weather details for the specified city in metric units.
+            - `id` (integer, optional): The unique identifier for the user.
+            - `name` (string, optional): The full name of the user.
+            - `email` (string, optional): The email address associated with the user.
+            - `birthdate` (string, optional): The date of birth of the user in the format YYYY-MM-DD.
+            - `age` (integer, optional): The age of the user.
+        - **Response**: User details.            
+            ```json
+            {
+                "id": 1,
+                "name": "John Doe",
+                "email": "johndoe@example.com",
+                "birthdate": "1990-05-15",
+                "age": 31
+            }
 
 # Screenshot
 ![SS1](https://github.com/Mirza-Hassan/Angular_Project_List_Task/assets/17096257/5785ecbc-56c2-4437-a6e5-5cd4247d545d)
