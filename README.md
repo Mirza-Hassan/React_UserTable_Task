@@ -77,10 +77,10 @@ This documentation outlines APIs:
             }
 
 # Screenshot
-![SS1](https://github.com/Mirza-Hassan/Angular_Project_List_Task/assets/17096257/5785ecbc-56c2-4437-a6e5-5cd4247d545d)
+![SS1](https://github.com/Mirza-Hassan/React_UserTable_Task/assets/17096257/1c50d8fb-8bf3-4a56-9f20-75bfe8c3dc71)
 
 # Demo
-[screencast-bpconcjcammlapcogcnnelfmaeghhagj-2023.09.21-23_18_53.webm](https://github.com/Mirza-Hassan/Angular_Project_List_Task/assets/17096257/56be3228-5508-44d0-b0ec-b6866b275587)
+[Demo.webm](https://github.com/Mirza-Hassan/React_UserTable_Task/assets/17096257/34b84540-025f-454d-a769-abda51319c68)
 
 ### Live URL 
 https://projectlistings.surge.sh
