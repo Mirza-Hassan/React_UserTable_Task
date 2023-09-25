@@ -61,11 +61,11 @@ This documentation outlines APIs:
         - **URL**: `https://private-e7f67d-users324.apiary-mock.com/users`
         - **Method**: GET
         - **Parameters**: 
-            - `id` (integer, optional): The unique identifier for the user.
-            - `name` (string, optional): The full name of the user.
-            - `email` (string, optional): The email address associated with the user.
-            - `birthdate` (string, optional): The date of birth of the user in the format YYYY-MM-DD.
-            - `age` (integer, optional): The age of the user.
+            - `id` (integer): The unique identifier for the user.
+            - `name` (string): The full name of the user.
+            - `email` (string): The email address associated with the user.
+            - `birthdate` (string): The date of birth of the user in the format YYYY-MM-DD.
+            - `age` (integer): The age of the user.
         - **Response**: User details.            
             ```json
             {
